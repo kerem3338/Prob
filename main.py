@@ -3,15 +3,19 @@ import sys
 import re
 
 text="""
-echo:hello world its soo easy --t hello #This is exam
-var:sa:--t
-varget:sa
+echo:Example Code in Prob language #This is comment
+
+#Variable
+var:hello:world
+getvar:hello
+
 """
 write=[]
-variables={"name":"example"}
+variables={"_file":__file__}
 for i in range(text.count("\n")):
   #Deeğişkenler
   satir=text.splitlines()
+  satir[i]=re.sub(r'#.*$', "", satir[i])
   belirtec=satir[i].split(":")
   belirtec_sayi=len(belirtec)
   write_sayi=len(write)
@@ -23,12 +27,17 @@ for i in range(text.count("\n")):
       sys.exit()
     elif isaretci[0] == "vars":
       print(variables)
+    elif isaretci[0] == "waitkey":
+      input("")
+    elif isaretci[0] == "consolelog":
+      for x in len(write):
+        print(write[x])
     else:
       print(f"MarkerError '{isaretci[0]}' is not found line:{i}")
   if belirtec_sayi-1 != 0:
     if belirtec[0] == "echo":
       write.append(belirtec[1])
-      write[write_sayi]=re.sub(r'#.*$', "", write[write_sayi])
+      #write[write_sayi]=re.sub(r'#.*$', "", write[write_sayi])
       write[write_sayi]=re.sub(r"--t","    ",write[write_sayi])
       print(write[write_sayi])
     elif belirtec[0]=="var":
