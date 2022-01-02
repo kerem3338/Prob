@@ -56,7 +56,7 @@ for i in range(line_count+1):
     if belirtec[0] == "program":
       if belirtec[1] == "dir":
         os.chdir(belirtec[2])
-      elif belirtec[1] == "clear":
+      elif belirtec[1]=="clear":
         if os.name == "nt":
           os.system("cls")
         else:

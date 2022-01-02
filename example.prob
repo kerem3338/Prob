@@ -1,0 +1,31 @@
+#Yorum satırı
+var:i i i:sa
+varget:i i i
+
+i i i=as
+varget:i i i
+
+#Merhaba Dünya
+echo:Merhaba--tDünya
+consolehistory;
+
+#Komut çalıştırma
+program:run:ls #list directory in Linux
+program:run:dir #list directory in Windows
+
+#Bütün Değişkenleri listeler
+vars;
+
+#program:dir:<dosya konumu> dosya konumunud değiştirir
+
+
+#wait:<zaman> konsolu duraklatır
+
+#Değişkene ekleme yapma
+var:test:1:int
+varadd:test:1
+
+varget:test
+
+
+exit; #programı sonlandırır
