@@ -9,5 +9,5 @@ işaretleyici argüman gerekmeyen komut, belirteç argüman belirten komuttur.<b
 
 ## Neden Prob
 
-Prob hem hızlı ve kullanışlıdır. Projelerinizde rahatlıkla Prob'u kullanabilirsiniz
-[Prob Açıklama](https://zoda.gitbook.io/prob)
+Prob hem hızlı ve kullanışlıdır. Projelerinizde rahatlıkla Prob'u kullanabilirsiniz.<br>
+[Prob Nasıl Çalışır](https://zoda.gitbook.io/prob)
