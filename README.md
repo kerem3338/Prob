@@ -1,4 +1,4 @@
-#Prob programlama dili
+# Prob programlama dili
 
 Prob dili belirteç ve işaretliyicilerden oluşur<br>
 işaretleyici argüman gerekmeyen komut, belirteç argüman belirten komuttur.<br>
@@ -6,3 +6,8 @@ işaretleyici argüman gerekmeyen komut, belirteç argüman belirten komuttur.<b
 ## Örnekler
 `exit;`: işaretleyici<br>
 `echo:<argüman>`: belirteç<br>
+
+## Neden Prob
+
+Prob hem hızlı ve kullanışlıdır. Projelerinizde rahatlıkla Prob'u kullanabilirsiniz
+[Prob Açıklama](https://zoda.gitbook.io/prob)
