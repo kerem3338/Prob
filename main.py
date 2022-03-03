@@ -6,7 +6,7 @@ import time
 
 
 text=input("file:")
-text=open(text,"r").read()
+text=open(text,"r",encoding="utf8").read()
 line_count=text.count("\n")
 if text.count("\n") == 0:
   line_count=1
